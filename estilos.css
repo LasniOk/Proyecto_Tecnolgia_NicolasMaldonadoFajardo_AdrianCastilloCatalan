@@ -1,0 +1,127 @@
+/* Estilos básicos para el cuerpo del documento */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #1e1e1e;
+    color: #f0f0f0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background: #0d6efd;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #0a58ca;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #d0d0d0;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+    margin: 15px;
+    background: #2d2d2d;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para los encabezados de las secciones */
+h2 {
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 10px;
+    color: #0d6efd;
+}
+
+/* Estilo para los artículos */
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    margin-top: 0;
+    color: #0d6efd;
+}
+
+/* Estilo para las listas */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #0d6efd;
+    border-radius: 8px;
+}
+
+/* Estilo para enlaces dentro de artículos */
+article a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+/* Estilo para el botón de regresar al inicio */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.scroll-to-top:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.scroll-to-top:active {
+    background-color: #003d7a;
+}
